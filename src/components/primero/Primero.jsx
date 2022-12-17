@@ -12,7 +12,7 @@ const Primero = () => {
         <div className='contenedorInfo'>
             <div className='cardInfo'>
                <img src={embalaje} alt="embalaje"/>
-               <p>Si tenes algo que ya no uses , que este guardado y que no sabes que hacer, alguien puede necesitarlo</p>
+               <p>Si tenés algo que ya no uses, que esté guardado y que no sabes que hacer, alguien puede necesitarlo</p>
             </div>
             <div className='cardInfo'>
                <img src={camioneta} alt="camioneta"/>
@@ -20,11 +20,11 @@ const Primero = () => {
             </div>
             <div className='cardInfo'>
                <img src={reparar} alt="reparar"/>
-               <p>Si tenes algo que necesita se reparado, pero que ya no le vas a dar uso, tambien sirve.</p>
+               <p>¡Si tenés algo que este roto que todavía puede ser reparado, también sirve para tu donación!.</p>
             </div>
             <div className='cardInfo'>
                <img src={mapa} alt="mapa"/>
-               <p>Si te encontras a más de 100km tambíen podemos ir a buscarlos, agendamos un dia y lo vamos a buscar.</p>
+               <p>Si te encuentras a más de 100 km también podemos ir a buscarlos, agendamos un día y lo vamos a buscar.</p>
             </div>
         </div>
     </div>

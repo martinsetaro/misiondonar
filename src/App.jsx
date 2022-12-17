@@ -6,6 +6,7 @@ import Inicio from './components/inicio/Inicio';
 import Primero from './components/primero/Primero';
 import Formulario from './components/formulario/Formulario';
 import Footer from './components/footer/Footer';
+import Idea from './components/idea/Idea';
 
 const App = ()=>{
 
@@ -14,6 +15,7 @@ const App = ()=>{
       <Header/>
       <Inicio/>
       <Primero/>
+      <Idea/>
       <Formulario/>
       <Footer/>
       

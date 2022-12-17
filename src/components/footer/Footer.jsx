@@ -12,7 +12,8 @@ const Footer = () => {
         <p>Email: misiondonarmendoza@gmail.com</p>
        </div>
         <div className='infoFooter'>
-          <p>Godoy Cruz - Mendoza</p>  
+          <p>Godoy Cruz - Mendoza</p> 
+          <p>2022 &copy;</p>  
         </div>
         
 

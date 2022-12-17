@@ -1,0 +1,50 @@
+:root {
+    --fuentePrincipal:'Jost', sans-serif;
+    --fuenteSecundaria :'Amatic SC', cursive;
+}
+
+.contenedorFooter 
+{
+    max-width: 120rem;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        
+    }
+    img 
+    {
+        width: 10rem;
+        height: 10rem;
+        @media (max-width:768px){
+           width: 8rem;
+           height: 8rem;
+            
+        }
+       
+    }
+    p {
+        font-family: var(--fuentePrincipal);
+        font-weight: 300;
+        font-size:1.8rem;
+        text-align: center;
+    }
+}
+.infoFooter 
+{
+    width: 100%;
+    height: 8rem;
+    @media (max-width:768px){
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        
+    }
+   
+}

@@ -1,0 +1,66 @@
+:root {
+    --fuentePrincipal:'Jost', sans-serif;
+    --fuenteSecundaria :'Amatic SC', cursive;
+}
+
+.contenedorPrimero
+{
+    max-width: 120rem;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        font-family: var(--fuentePrincipal);
+        font-size: 2.5rem;
+        text-align: center;
+
+    }
+    p {
+        font-family: var(--fuenteSecundaria);
+        font-size:2.5rem;
+        text-align: center;  
+    }
+
+}
+.contenedorInfo 
+{
+    max-width: 120rem;
+    height: 40rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: .1rem solid #04caec;
+    border-radius: .5rem;
+    @media (max-width:768px){
+        display: flex;
+        flex-direction: column;
+       height: auto;
+        
+    }
+}
+.cardInfo 
+{
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width:768px){
+       width: 100%;
+        
+    }
+    img 
+    {
+        width: 10rem;
+        height: 10rem;
+    }
+    p {
+        font-family: var(--fuentePrincipal);
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 300; 
+    }
+}

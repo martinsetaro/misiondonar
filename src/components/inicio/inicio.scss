@@ -1,0 +1,14 @@
+:root {
+    --fuentePrincipal:'Jost', sans-serif;
+    --fuenteSecundaria :'Amatic SC', cursive;
+}
+
+.contenedor
+{
+    max-width: 120rem;
+    height: 40rem;
+    background-image: url('../../assets/img/foto.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

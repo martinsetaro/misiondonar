@@ -11,9 +11,9 @@ const Formulario = () => {
     
         emailjs.sendForm('misiondonarmendoza', 'template_kamhvpd',e.target, '4W4b1H25foGr5EXxd')
           .then((result) => {
-              console.log(result.text);
+              console.log(result);
           }, (error) => {
-              console.log(error.text);
+              console.log(error);
           });
       };
 
@@ -26,7 +26,7 @@ const Formulario = () => {
             <label>Ingresa tu nombre</label>
             <input type="text" placeholder="Ingrese su nombre" name="user_name"/>
             <label>Ingresa tu apellido</label>
-            <input type="text" placeholder="Ingrese su apellido"/>
+            <input type="text" placeholder="Ingrese su apellido" name="user_apellido"/>
             <label>Ingresa tu telefono</label>
             <input type="number" placeholder="Ingrese su telefono" name="user_phone"/>
             <label>Ingresa tu correo electronico</label>

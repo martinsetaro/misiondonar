@@ -72,7 +72,7 @@ const enviarDatos = (e)=>{
             <label>Ingresa tu correo electronico</label>
             <input onChange={(e)=> setCorreoElectronico(e.target.value)} type="email" placeholder="Ingrese su email" name="user_email"/>
             <label>Selecciona tu departamento</label>
-            <select onChange={(e)=> setDepartamento(e.target.value)} name={`user_${departamento}`} >
+            <select onChange={(e)=> setDepartamento(e.target.value)} name={departamento} >
                 <option>Seleccionar Depto</option>
                 {departamentos.map((item,index) => {
                     return (

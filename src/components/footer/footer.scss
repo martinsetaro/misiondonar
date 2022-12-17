@@ -45,6 +45,7 @@
     align-items: center;
     @media (max-width:768px){
         display: flex;
+        flex-direction: column;
         justify-content: center;
         margin-bottom: 2rem;
         padding: 1rem;
@@ -65,5 +66,9 @@
     p 
     {
         font-weight: 500;
+        @media (max-width:768px){
+            font-size: 1.5rem;
+            
+        }
     }
 }
